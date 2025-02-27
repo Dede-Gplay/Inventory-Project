@@ -2,9 +2,8 @@ import React from 'react'
 
 function SideBar() {
   return (
-    <div>
-      
-    </div>
+    <h1>This is Side bar</h1>
+  
   )
 }
 

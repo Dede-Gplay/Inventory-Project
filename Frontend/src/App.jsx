@@ -4,6 +4,8 @@ import Header from './components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import SideBar from './components/SideBar'
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -12,6 +14,8 @@ function App() {
     <>
       <Header/>
       <SideBar/>
+      <Main/>
+      <Footer/>
     </>
     
   )

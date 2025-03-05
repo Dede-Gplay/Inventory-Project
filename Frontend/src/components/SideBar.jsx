@@ -48,7 +48,7 @@ function SideBar() {
         <li className='nav-item setting'>
             <a className='nav-link collapsed' href='/'>
                 <FontAwesomeIcon icon={faArrowRightFromBracket} className='i'/>
-                <span>Sign Out</span>
+                <span>Sign  Out</span>
             </a>
         </li>
     </ul>

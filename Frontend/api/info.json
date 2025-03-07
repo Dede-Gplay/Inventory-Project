@@ -171,5 +171,31 @@
             "content": "ddwffkbcsbf sckf",
             "highlight": ""
         }
+    ],
+    "medications": [
+        {
+            "_id": 1,
+            "name": "Ecxosomes",
+            "category": "stem cell medication",
+            "quant_in_stock": 50,
+            "sold": 30,
+            "status": "In Stock"
+        },
+        {
+            "_id": 2,
+            "name": "Umbylical cords",
+            "category": "stem cell medication",
+            "quant_in_stock": 40,
+            "sold": 20,
+            "status": "In Stock"
+        },
+        {
+            "_id": 3,
+            "name": "Camatic Plasma",
+            "category": "weight loss",
+            "quant_in_stock": 0,
+            "sold": 40,
+            "status":"Out Of Stock"
+        }
     ]
 }

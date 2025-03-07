@@ -15,10 +15,8 @@ function PageTitle({page}) {
                     </a>
                 </li>
                 <li className='breadcrumb-item'>{page}</li>
-
             </ol>
         </nav>
-      
     </div>
   )
 }

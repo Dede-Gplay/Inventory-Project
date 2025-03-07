@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faCircleExclamation, faArrowRightFromBracket, faHouse, faBoxesStacked, faPrescriptionBottleMedical, faTrashCan, faWrench, faChartLine, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons"
+import { faArrowRightFromBracket, faHouse, faBoxesStacked, faPrescriptionBottleMedical, faTrashCan, faWrench, faChartLine, faClipboardList } from "@fortawesome/free-solid-svg-icons"
 
 function SideBar() {
   return (
@@ -11,6 +11,12 @@ function SideBar() {
             <a className='nav-link' href='/'>
                 <FontAwesomeIcon icon={ faHouse } className='icon'/>
                 <span>Dashboard</span>
+            </a>
+        </li>
+        <li className='nav-item'>
+            <a className=' nav-link collapsed' href='/'>
+                <FontAwesomeIcon icon={faClipboardList} className='icon' />
+                <span>Add Items</span>
             </a>
         </li>
         <li className='nav-item'>

@@ -8,3 +8,17 @@
         padding: 20px;
     }
 }
+#prod_tag{
+    background-color: #42aeb5;
+    color: whitesmoke;
+}
+#but{
+    background-color: white;
+    color: #42aeb5;
+    border: 1px solid #42aeb5;
+}
+#but:hover{
+    background-color: #42aeb5;;
+    color: white;
+    transition: ease-in-out 0.5s;
+}

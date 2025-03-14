@@ -11,7 +11,7 @@ function PageTitle({page}) {
             <ol className='breadcrumb'>
                 <li className='breadcrumb-item'>
                     <a href='/'>
-                        < FontAwesomeIcon icon={faHome}/>
+                        <FontAwesomeIcon icon={faHome} className='home'/>
                     </a>
                 </li>
                 <li className='breadcrumb-item'>{page}</li>

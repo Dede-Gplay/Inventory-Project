@@ -63,7 +63,7 @@
 .sidebar-nav .nav-heading{
     font-size: 11px;
     text-transform: uppercase;
-    color: #899bbd;
+    color: #184548;
     font-weight: 600;
     margin: 10px 0 5px 15px;
 }
@@ -72,35 +72,47 @@
     align-items: center;
     font-size: 15px;
     font-weight: 600;
-    color: #4154f1;
+    color: #184548;
     transition: 0.3s;
     background: #f6f9ff;
     padding: 10px 15px;
     border-radius: 4px;
 }
+.dash{
+    text-decoration: none;
+    color: #184548;
+}
 
 .sidebar-nav .nav-link .icon{
     font-size: 16px;
     margin-right: 10px;
-    color: #4154f1;
+    color: #184548;
 }
-.sidebar-nav .nav-link.collapsed{
-    color: #012970;
+.icon:hover{
+    color: whitesmoke;
+}
+.sidebar-nav .nav-item .nav-link span:hover{
+    color: whitesmoke;
+}
+
+.sidebar-nav .nav-link .collapsed{
+    color: #184548;
     background: #fff;
 }
-.sidebar-nav .nav-link.collapsed .icons{
-    color: #012970;
+.sidebar-nav .nav-link .collapsed .icons{
+    color: #184548;
 }
 .icons{
     margin-right: 10px;
 }
 .sidebar-nav .nav-link:hover{
-    color: #4154f1;
-    background: #f6f9ff;
+    color: whitesmoke;
+    background: #42AEB5;
 }
-.sidebar-nav .nav-link:hover .icons{
-    color: #4154f1;
+.sidebar-nav .nav-link:hover .icons:hover{
+    color: #184548;
 }
+
 .setting{
     position: absolute;
     bottom: 50px;
@@ -110,4 +122,5 @@
     font-size: 18px;
     line-height: 0;
 }
+
 

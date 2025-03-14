@@ -8,10 +8,10 @@ function SearchBar() {
   return (
     <div className='search-bar'>
         <form className='search-form d-flex align-items-center' method='POST' action='#'>
-            <input type='text' name='query' placeholder='Search' title='Enter search keyword'/>
-            <button type='submit' title='Search'>
-                <FontAwesomeIcon className='i' icon={faMagnifyingGlass} />
-            </button>
+          <input type='text' name='query' placeholder='Search' title='Enter search keyword'/>
+          <button type='submit' title='Search'>
+              <FontAwesomeIcon className='i' icon={faMagnifyingGlass} />
+          </button>
         </form>
       
     </div>
